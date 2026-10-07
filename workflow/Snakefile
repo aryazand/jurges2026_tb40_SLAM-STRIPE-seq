@@ -69,10 +69,6 @@ use rule prereads_multiqc from fastq_prep_and_align as prereads_multiqc with:
 # 3. Default Target
 # ─────────────────────────────────────────────────────────────────────────────
 
-
-containerized: "oras://ghcr.io/ZandvakiliLab/fastq-prep-and-align:latest"
-
-
 rule all:
     default_target: True
     input:
@@ -89,4 +85,4 @@ rule all:
 # ─────────────────────────────────────────────────────────────────────────────
 # container definition (optional)
 # ─────────────────────────────────────────────────────────────────────────────
-container: "oras://ghcr.io/zandvakililab/fastq-prep-and-align:latest"
+container: "oras://ghcr.io/ZandvakiliLab/fastq-prep-and-align:latest"
