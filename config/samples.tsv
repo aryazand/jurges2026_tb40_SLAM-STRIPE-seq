@@ -1,0 +1,9 @@
+sample	description	accession	read1	read2
+24hpi_rep1	24hpi	SRR17281025
+24hpi_rep2	24hpi	SRR17281024
+72hpi_rep1	72hpi	SRR17281023
+72hpi_rep2	72hpi	SRR17281022
+72hpi_GCV_rep1	72hpi+GCV	SRR17281021
+72hpi_GCV_rep2	72hpi+GCV	SRR17281020
+72hpi_PAA_rep1	72hpi+PAA	SRR17281019
+72hpi_PAA_rep2	72hpi+PAA	SRR17281018
