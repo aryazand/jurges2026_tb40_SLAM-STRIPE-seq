@@ -3,8 +3,8 @@ resources:
   mem_mb: 110000
 set-resources:
   module_align_star_align:
-    mem_mb: 35000
-    threads: 4
+    mem_mb: 50000
+    threads: 10
   module_align_deeptools_coverage:
     mem_mb: 35000
     threads: 4
