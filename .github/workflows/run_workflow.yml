@@ -86,7 +86,7 @@ jobs:
             --software-deployment-method apptainer conda
             --default-storage-provider fs
             --default-storage-prefix /mnt/snakemake/${{ github.event.repository.name }}
-            --shared-fs-usage software-deployment persistence sources source-cache
+            --shared-fs-usage software-deployment persistence sources source-cache input-output
             --local-storage-prefix /home/runner/snakemake-scratch
           stagein: "mamba install -n snakemake bioconda::snakemake-storage-plugin-fs"
           show-disk-usage-on-error: true
