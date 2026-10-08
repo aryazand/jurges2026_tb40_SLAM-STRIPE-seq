@@ -51,6 +51,8 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     
+    timeout-minutes: 2880
+    
     needs: [changes, lint]
     if: |
       always() &&
