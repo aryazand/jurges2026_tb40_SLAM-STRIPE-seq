@@ -45,7 +45,7 @@ use rule align_star_index from fastq_prep_and_align as module_align_star_index w
     threads: 8
 
 
-use rule align_deeptools_coverage from fastq_prep_and_align as align_deeptools_coverage with:
+use rule align_deeptools_coverage from fastq_prep_and_align as module_align_deeptools_coverage with:
     params:
         effective_genome_size=lambda wc: config["mapping_stats"]["deeptools_coverage"][
             "genome_size"
@@ -60,7 +60,7 @@ use rule align_deeptools_coverage from fastq_prep_and_align as align_deeptools_c
             )
         ),
 
-use rule prereads_multiqc from fastq_prep_and_align as prereads_multiqc with:
+use rule prereads_multiqc from fastq_prep_and_align as module_prereads_multiqc with:
     input:
         lambda wc: fastq_prep_and_align.prepreads.get_multiqc_input(wc)
         + fastq_prep_and_align.align.get_multiqc_input(wc),

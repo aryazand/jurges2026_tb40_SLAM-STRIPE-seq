@@ -5,7 +5,7 @@ set-resources:
   module_align_star_align:
     mem_mb: 35000
     threads: 4
-  align_deeptools_coverage:
+  module_align_deeptools_coverage:
     mem_mb: 35000
     threads: 4
 rerun-incomplete: true
