@@ -2,8 +2,8 @@ printshellcmds: true
 resources:
   mem_mb: 110000
 set-resources:
-  align_star_align:
-    mem_mb: 50000
+  module_align_star_align:
+    mem_mb: 35000
     threads: 4
   align_deeptools_coverage:
     mem_mb: 35000
