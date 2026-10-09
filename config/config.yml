@@ -63,7 +63,7 @@ mapping:
     sort_extra: ""
   star:
     index: ""
-    extra: ["--outFilterMultimapNmax 10", "--outSAMmultNmax 1", "--outMultimapperOrder Random", "--alignIntronMax 1"]
+    extra: ["--outFilterMultimapNmax 10", "--outSAMmultNmax 1", "--outMultimapperOrder Random"]
   minimap2:
     index: ""
     extra: "-ax map-ont"
